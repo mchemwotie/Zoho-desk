@@ -9,7 +9,7 @@ In this enhancement, the aim is to improve the organization and sorting of queri
 ### Implementation Steps:
 1. After processing the request, we extract the current date and time timestamp.
 2. We then rename the request file by combining the original name with the extracted timestamp (e.g.,"Request_2023-08-22_094015.xlsx").
-3. Finally, the renamed file is moved to the Requests folder.
+3. The renamed file is then moved to the Requests folder.
 
 
 ## Enhancement 2: Capturing All Fields for Zoho Ticket Creation
@@ -33,7 +33,7 @@ To enhance user control, we introduce the option to stop the attended automation
 
 
 ## There are 3 types of xaml files used to create automation, these are as follows;
-Main.xaml
+### Main.xaml
 This is the main workflow which will invoke other workflows and orchestrate the automation.
 
 ### ReadRequest.xaml
